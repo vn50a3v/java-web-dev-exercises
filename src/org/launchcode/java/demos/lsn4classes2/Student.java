@@ -30,9 +30,13 @@ public class Student {
 
 
      //TODO: Uncomment and complete the getGradeLevel method here:
-//    public String getGradeLevel() {
-//        // Determine the grade level of the student based on numberOfCredits
-//    }
+    public double getGradeLevel() {
+        // Determine the grade level of the student based on numberOfCredits
+
+       //
+        double TotalQScore = numberOfCredits * gpa;
+        return TotalQScore;
+    }
 
     // TODO: Complete the addGrade method.
     public void addGrade(int courseCredits, double grade) {

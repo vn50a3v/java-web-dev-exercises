@@ -6,8 +6,35 @@ package org.launchcode.java.demos.lsn3classes1;
 public class Student {
 
     private String name;
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
     private int studentId;
-    private int numberOfCredits = 0;
-    private double gpa = 0.0;
+    public int getStudentId() {
+        return studentId;
+    }
+    public void setStudentId(int studentId) {
+        this.studentId = studentId;
+    }
+    private int numberOfCredits = 1;
+    public int getNumberOfCredits() {
+        return numberOfCredits;
+    }
+    public void setNumberOfCredits(int numberOfCredits) {
+        this.numberOfCredits = numberOfCredits;
+    }
+    private double gpa = 4.0;
+    public double getGpa() {
+        return gpa;
+    }
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
+
+
+
 
 }
